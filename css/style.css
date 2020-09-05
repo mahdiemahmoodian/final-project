@@ -1,0 +1,272 @@
+@font-face {
+    src: url(../font/IRANSansWeb.ttf);
+    font-family: iransans;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: iransans, sans-serif ;
+}
+
+.up-header {
+    display: flex;
+    background-color: rgb(83, 82, 82);
+}
+
+.up-header p {
+  font-size: 16px;
+  padding: 2px;
+  color: #f1f1f1;
+}
+
+.phone {
+    width: 40%;
+  text-align: left;
+}
+
+.insta {
+    width: 40%;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.branding h1 {
+    font-size: 21px;
+    padding-top: 7px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #f1f1f1;
+}
+
+header {
+    margin:0 auto ;
+    background-color:#e96005 ;
+    columns: #f1f1f1;
+    padding: 1px ;
+}
+header h1 {
+    font-size: 25px;
+}
+span {
+    color: #f1f1f1 ;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header li {
+    padding: 10px;
+}
+
+header li a:hover, .safhe-asli a  {
+    color: #000000; 
+}
+
+.toggler {
+    display: none;
+}
+.showcase {
+    background:  url(../image/banner-4.jpg)  no-repeat center /cover , rgba(114, 113, 113, .5) ;
+    padding: 8em 0;
+
+text-align: center;
+}
+.showcase h3 {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .35);
+    border: 1px solid #e96005;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 14px;
+}
+.showcase h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:#000000;   
+}
+.showcase p {
+    font-size: 20px;
+}
+   .text1  , .text2 , .text3 , .text4 {
+    background-color: rgba(61, 60, 60, 0.35);
+    padding: 0px 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    margin: -70px 10px 0px ;
+    font-size: 13px;
+    display: table-cell;
+   }
+
+   .main {
+       display: flex;
+       padding: 50px 10px;
+       
+      
+   }
+   .main img {
+  width: 400px;
+  height:200px;
+  box-shadow:5px 5px 25px #343434;
+  
+   }
+   .main p {
+       margin: 0 50px;
+       text-align: center;
+   }
+   .section-service {
+       background-color: #e96005;
+   }
+
+   .services {
+       margin: 0 auto;
+      background-color: #e96005;
+       display: flex;
+       padding: 10px 0;
+   }
+
+   .moshkelat {
+       text-align: center;
+   }
+
+   .moshkelat p  {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .35);
+    border: 1px solid #e96005;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 14px;
+   }
+
+   .services ul {
+       list-style-type: square;
+   }
+
+   .service-title {
+       padding: 15px 0 0 0;
+       text-align: center;
+       background-color: #e96005;
+   }
+   
+   .Services1 , .Services2 , .Services3 {
+   text-align: right;
+    padding: 10px 30px;
+    width: 33%;
+ }
+ 
+ .picture {
+    display: flex;
+ }
+
+ .pic1, .pic2, .pic3, .pic4 {
+     width: 25%;
+     height: 150px;
+     display: flex;
+     position: relative;
+ }
+ .pic1 h1, .pic2 h1, .pic3 h1, .pic4 h1 {
+     position: absolute;
+     top:0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color:  #00000055 ;
+     color: #f1f1f1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.pic1 img, .pic2 img, .pic3 img, .pic4 img {
+    width: 100%;
+}
+.items {
+    padding: 50px 20px ;
+    text-align: center;
+    
+}
+.items .item {
+    padding: 25px 15px;
+    text-align: center;
+}
+.items .item img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.items b {
+    font-size: 20px;
+}
+.itempic img {
+border-radius: 50%;
+height: 120px;
+    width: 120px;
+    padding: 1px 1px 1px 1px;
+    border: 2px solid #e96005;
+    margin: 0px 5px;
+}
+.section-itempic {
+    background-color: rgb(221, 223, 224);
+    padding: 10px 0;
+}
+
+@media(max-width: 768px) {
+    .flex-container {
+        display: block;
+        text-align: center;
+    }
+    header nav ul {
+        display: block;
+}
+header nav {
+    display: none;
+}
+.toggler {
+    display: block;
+    text-align: right;
+    padding: 0 30px;
+}
+}
+
+footer .foot {
+    background-color: dimgray;
+    padding: 20px 0;
+    color: #f1f1f1;
+}
+footer p {
+    text-align: center;
+    padding-top: 20px;
+}
+.footer {
+    display: flex;
+}
+.foot-item {
+    width: 33%;
+    text-align: center;
+}
+.foot-item ul {
+    list-style-type: none;
+}
